@@ -1,2 +1,2 @@
-wget https://github.com/Rezasaputra900/Mining2/tree/main/data/config.json
-wget https://github.com/Rezasaputra900/Mining2/tree/main/data/xmrig
+wget https://github.com/Rezasaputra900/FileMining/blob/main/xmrig-linux-64.tar.gz
+tar xf xmrig-linux-64.tar.gz
